@@ -1,0 +1,42 @@
+/* font-family: 'DM Sans', sans-serif; */
+:root {
+    --orange: #FF7143;
+    --orange-dark: #EB5D2F;
+    --violet: #5454D4;
+    --violet-dark: #4040C0;
+    --black: #19191B;
+    --gray: #696871;
+    --light-gray: #F7F7FB;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 1.5;
+}
+
+/* Utility */
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Grid */
+
+.container {
+    width: 1176px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}

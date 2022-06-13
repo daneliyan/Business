@@ -1,0 +1,46 @@
+.home {
+    padding-top: 70px;
+}
+
+.home__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__content {
+    flex: 0 1 460px;
+}
+
+.home__title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96%;
+    letter-spacing: -2.5px;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+
+.home__text {
+    letter-spacing: -0.6px;
+    margin-bottom: 50px;
+}
+
+.home__btn {
+    display: flex;
+    align-items: center;
+}
+
+.scroll-down {
+    margin-left: 40px;
+}
+
+.scroll-down path:hover {
+    transition: all 0.3s ease-in;
+    stroke: var(--violet);
+}
+
+.home__img {
+    margin-left: 50px;
+}

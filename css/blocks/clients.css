@@ -1,0 +1,14 @@
+.clients {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.clients__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clients__logo-item {
+    
+}
